@@ -3,9 +3,9 @@
 > 끝까지 보는것이 가중 중요한 목적입니다.
 
 ## Contents
-* [Tools](https://github.com/Heo-Seoyeong/Study_RxSwift#tools)
-* [Curriculum](https://github.com/Heo-Seoyeong/Study_RxSwift#curriculum)
-* [ToyProject](https://github.com/Heo-Seoyeong/Study_RxSwift#toyproject)
+* [Tools](https://github.com/Heo-Seoyeong/Study_Swift4#tools)
+* [Curriculum](https://github.com/Heo-Seoyeong/Study_Swift4#curriculum)
+* [ToyProject](https://github.com/Heo-Seoyeong/Study_Swift4#toyproject)
 
 ## Tools
 *  [스위프트 프로그래밍, 야곰](http://www.yes24.com/24/goods/50323322)
