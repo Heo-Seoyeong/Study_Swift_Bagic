@@ -1,6 +1,6 @@
 import UIKit
 
-/* 함수 */
+/* 함수 기본 */
 
 // MARK: - 함수의 선언
 
@@ -149,3 +149,68 @@ func runAnother(function: (String, String) -> Void) {
 
 runAnother(function: greeting(friend:me:))
 runAnother(function: someFunction)
+
+
+
+/* 조건문 */
+
+let someInteger = 100
+
+// MARK: - if-else
+
+//if <#condition#> {
+//    statemets
+//} else if <#condition#> {
+//    statemets
+//} else {
+//    statemets
+//}
+
+
+if someInteger < 100 {
+    print("100 미만")
+} else if someInteger > 100 {
+    print("100 초과")
+} else {
+    print("100")
+}
+
+// 스위프트의 조건에는 항상 Bool 타입이 들어와야합니다.
+// someInteger는 Bool 타입이 아닌 Int 타입이기 때문에
+// 비교문을 써주지 않으면 컴파일 오류가 발생
+
+// MARK: - switch
+
+//switch <#value#> {
+//case <#pattern#>:
+//    <#code#>
+//default:
+//    <#code#>
+//}
+
+switch someInteger {
+case 0:
+    print("zero")
+case 1..<100:
+    print("1~99")
+case 100:
+    print("100")
+case 101...Int.max:
+    print("over 100")
+default:
+    print("unknown")
+}
+
+// 정수 외의 대부분의 기본 타입을 사용할 수 있습니다.
+switch "Seoyeong" {
+case "jake":
+    print("jake")
+// break 가 자동으로 적용되나 break를 걸고 싶지않을땐 falthrough
+    fallthrough
+case "mina":
+    print("jake")
+case "yagom":
+    print("jake")
+default:
+    print("unknown")
+}
