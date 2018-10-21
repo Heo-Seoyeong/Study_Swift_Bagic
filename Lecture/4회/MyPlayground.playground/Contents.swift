@@ -122,10 +122,10 @@ yourName = "dung"
 if let name = myName, let friend = yourName {
     print("\(name) and \(friend)")
 }
-// yagom and hana
+// seoyeong and dung
 
 //MARK:- Force Unwrapping
-printName(myName!) // yagom
+printName(myName!) // seoyeong
 myName = nil
 
 //print(myName!)
